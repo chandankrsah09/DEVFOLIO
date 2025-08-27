@@ -79,12 +79,60 @@ export default function HeroSection() {
           </div>
           <div className="hidden lg:block relative">
             <div className="glassmorphism rounded-2xl p-8 animate-slide-up">
-              <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Modern developer workspace setup with multiple monitors" 
-                className="rounded-xl w-full h-auto glow-effect"
-                data-testid="hero-image"
-              />
+              <div className="bg-black rounded-xl w-full h-96 relative overflow-hidden glow-effect border border-secondary border-opacity-30" data-testid="dynamic-screen">
+                {/* Screen Header */}
+                <div className="bg-slate bg-opacity-20 p-2 flex items-center justify-between border-b border-secondary border-opacity-30">
+                  <div className="flex space-x-2">
+                    <div className="w-3 h-3 bg-coral rounded-full"></div>
+                    <div className="w-3 h-3 bg-highlight rounded-full"></div>
+                    <div className="w-3 h-3 bg-secondary rounded-full"></div>
+                  </div>
+                  <div className="text-slate text-xs font-mono">terminal</div>
+                </div>
+                
+                {/* Terminal Content */}
+                <div className="p-4 h-full overflow-hidden">
+                  <div className="space-y-2 text-sm font-mono">
+                    <div className="text-secondary animate-pulse">
+                      <span className="text-highlight">$</span> npm start
+                    </div>
+                    <div className="text-slate animate-fade-in" style={{animationDelay: '0.5s'}}>
+                      Starting development server...
+                    </div>
+                    <div className="text-secondary animate-fade-in" style={{animationDelay: '1s'}}>
+                      ✓ Server running on port 3000
+                    </div>
+                    <div className="text-slate animate-fade-in" style={{animationDelay: '1.5s'}}>
+                      <span className="text-highlight">$</span> git status
+                    </div>
+                    <div className="text-secondary animate-fade-in" style={{animationDelay: '2s'}}>
+                      On branch main
+                    </div>
+                    <div className="text-slate animate-fade-in" style={{animationDelay: '2.5s'}}>
+                      Your branch is up to date
+                    </div>
+                    
+                    {/* Code Animation */}
+                    <div className="mt-4 space-y-1 animate-fade-in" style={{animationDelay: '3s'}}>
+                      <div className="text-coral">const developer = {`{`}</div>
+                      <div className="text-slate ml-4">name: <span className="text-secondary">'Chandan'</span>,</div>
+                      <div className="text-slate ml-4">skills: <span className="text-highlight">['React', 'Node.js']</span>,</div>
+                      <div className="text-slate ml-4">passion: <span className="text-secondary">'Full Stack'</span></div>
+                      <div className="text-coral">{`}`};</div>
+                    </div>
+                    
+                    {/* Typing Cursor */}
+                    <div className="text-secondary mt-4">
+                      <span className="text-highlight">$</span> <span className="animate-pulse">|</span>
+                    </div>
+                  </div>
+                  
+                  {/* Floating Elements */}
+                  <div className="absolute top-20 right-4 w-2 h-2 bg-secondary rounded-full animate-ping" style={{animationDelay: '1s'}}></div>
+                  <div className="absolute bottom-20 left-4 w-1 h-1 bg-coral rounded-full animate-ping" style={{animationDelay: '2s'}}></div>
+                  <div className="absolute top-32 right-8 w-1 h-1 bg-highlight rounded-full animate-ping" style={{animationDelay: '3s'}}></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
