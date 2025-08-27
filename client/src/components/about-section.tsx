@@ -57,16 +57,30 @@ export default function AboutSection() {
           </div>
           
           <div className="relative">
-            <div className="glassmorphism rounded-2xl p-6">
+            <div className="glassmorphism rounded-2xl p-6 relative overflow-hidden">
+              {/* Background blur overlay */}
+              <div 
+                className="absolute inset-0 rounded-xl"
+                style={{
+                  backgroundImage: 'url(/chandan-photo.jpg)',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  filter: 'blur(15px) brightness(0.4)',
+                  transform: 'scale(1.1)'
+                }}
+              ></div>
+              
+              {/* Main focused image */}
               <img 
                 src="/chandan-photo.jpg" 
                 alt="Chandan Kumar Sah - Full Stack Developer" 
-                className="rounded-xl w-full h-auto glow-effect object-cover aspect-square"
+                className="rounded-xl w-full h-auto glow-effect object-cover aspect-square relative z-10"
                 style={{
-                  filter: 'contrast(1.1) brightness(1.05)',
-                  objectPosition: 'center 20%',
-                  transform: 'scale(1.3)',
-                  transformOrigin: 'center 30%'
+                  filter: 'contrast(1.15) brightness(1.08)',
+                  objectPosition: 'center 25%',
+                  transform: 'scale(1.8)',
+                  transformOrigin: 'center 35%',
+                  clipPath: 'inset(0 25% 0 25%)'
                 }}
                 data-testid="about-image"
               />
