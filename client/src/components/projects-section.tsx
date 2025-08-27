@@ -3,35 +3,35 @@ import { Github, ExternalLink } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A modern, full-stack e-commerce platform built with React, Node.js, and PostgreSQL. Features include real-time inventory management, secure payment processing, and an intuitive admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      title: "Rising Bihar – Admin Dashboard",
+      description: "Developed a secure, role-based admin dashboard for the Rising Bihar initiative using React.js and Node.js. Implemented RESTful APIs for dynamic data management with real-time updates and enhanced authentication mechanisms.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      technologies: ["React.js", "Node.js", "REST APIs", "Authentication"],
       accentColor: "secondary",
       links: {
-        github: "#",
+        github: "https://github.com/chandankrsah09",
         live: "#"
       }
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with Next.js and Socket.io for seamless real-time experience.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["Next.js", "Socket.io", "MongoDB", "Prisma"],
+      title: "Gyan Changera – Maithili Literature Platform",
+      description: "Developed a comprehensive e-commerce platform to promote and sell Maithili literature, utilizing Next.js for server-side rendering and improved SEO. Integrated MongoDB for efficient data management with responsive design principles.",
+      image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      technologies: ["Next.js", "MongoDB", "SEO", "E-commerce"],
       accentColor: "coral",
       links: {
-        github: "#",
+        github: "https://github.com/chandankrsah09",
         live: "#"
       }
     },
     {
-      title: "AI-Powered Analytics",
-      description: "An intelligent analytics dashboard that leverages machine learning to provide actionable insights. Features predictive analytics, data visualization, and automated reporting capabilities.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["Python", "TensorFlow", "D3.js", "FastAPI"],
+      title: "Smart City Waste Management System",
+      description: "Built a full-stack IoT-enabled platform to monitor smart waste bins in real-time with analytics dashboards. Integrated Google Maps API for bin locations and used Supabase for database and authentication.",
+      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      technologies: ["React.js", "Node.js", "Supabase", "Google Maps"],
       accentColor: "highlight",
       links: {
-        github: "#",
+        github: "https://github.com/chandankrsah09",
         live: "#"
       }
     }

@@ -21,7 +21,7 @@ export default function Navigation() {
             onClick={() => scrollToSection('hero')}
             data-testid="logo"
           >
-            &lt;AC /&gt;
+            &lt;CKS /&gt;
           </div>
           
           <div className="hidden md:flex space-x-8">

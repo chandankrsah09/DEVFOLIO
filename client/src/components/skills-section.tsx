@@ -6,25 +6,25 @@ export default function SkillsSection() {
       icon: <Code className="text-4xl" />,
       title: "Frontend",
       color: "text-coral",
-      skills: ["React.js", "Next.js", "Vue.js", "Tailwind CSS"]
+      skills: ["React.js", "Next.js", "TypeScript", "JavaScript"]
     },
     {
       icon: <Server className="text-4xl" />,
       title: "Backend",
       color: "text-highlight",
-      skills: ["Node.js", "Python", "Express.js", "Django"]
+      skills: ["Node.js", "Express.js", "Python", "Java"]
     },
     {
       icon: <Database className="text-4xl" />,
       title: "Database",
       color: "text-secondary",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "Firebase"]
+      skills: ["PostgreSQL", "MongoDB", "MySQL", "Supabase"]
     },
     {
       icon: <Cloud className="text-4xl" />,
-      title: "DevOps",
+      title: "DevOps & AI",
       color: "text-coral",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD"]
+      skills: ["AWS", "Docker", "TensorFlow", "PyTorch"]
     }
   ];
 

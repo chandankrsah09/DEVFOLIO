@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function HeroSection() {
   const [typingText, setTypingText] = useState("");
-  const fullText = "Full Stack Developer & UI/UX Enthusiast";
+  const fullText = "Full Stack Developer & SDE";
 
   useEffect(() => {
     let index = 0;
@@ -47,7 +47,7 @@ export default function HeroSection() {
               Hi, my name is
             </p>
             <h1 className="text-6xl lg:text-7xl font-bold mb-6 text-glow" data-testid="name">
-              Alex Chen
+              Chandan Kumar Sah
             </h1>
             <h2 className="text-4xl lg:text-5xl font-bold text-slate mb-8" data-testid="tagline">
               I build things for the web.
@@ -57,8 +57,8 @@ export default function HeroSection() {
               <span className="animate-pulse">|</span>
             </div>
             <p className="text-lg text-slate leading-relaxed max-w-2xl mb-12" data-testid="description">
-              I'm a passionate full-stack developer specializing in building exceptional digital experiences. 
-              Currently focused on creating accessible, human-centered products with modern technologies.
+              Result-driven computer science graduate with 6+ months of hands-on experience as a full stack developer. 
+              Currently working at Mithila Stack, developing scalable applications using React, Node.js, and TypeScript.
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <button 

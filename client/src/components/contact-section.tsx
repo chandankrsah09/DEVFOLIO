@@ -57,8 +57,8 @@ export default function ContactSection() {
   };
 
   const socialLinks = [
-    { icon: <Github />, href: "#", label: "GitHub" },
-    { icon: <Linkedin />, href: "#", label: "LinkedIn" },
+    { icon: <Github />, href: "https://github.com/chandankrsah09", label: "GitHub" },
+    { icon: <Linkedin />, href: "https://linkedin.com/in/chandan-kumar-sah-953061218/", label: "LinkedIn" },
     { icon: <Twitter />, href: "#", label: "Twitter" },
     { icon: <Instagram />, href: "#", label: "Instagram" },
   ];
@@ -184,7 +184,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="text-slate text-sm">Email</div>
-                    <div className="text-lg">alex.chen@example.com</div>
+                    <div className="text-lg">dbgchandan441@gmail.com</div>
                   </div>
                 </div>
                 
@@ -194,7 +194,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="text-slate text-sm">Location</div>
-                    <div className="text-lg">San Francisco, CA</div>
+                    <div className="text-lg">Bihar, India</div>
                   </div>
                 </div>
                 
@@ -204,7 +204,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="text-slate text-sm">Phone</div>
-                    <div className="text-lg">+1 (555) 123-4567</div>
+                    <div className="text-lg">+91 (821) 924 2187</div>
                   </div>
                 </div>
               </div>

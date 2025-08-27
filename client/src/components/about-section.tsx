@@ -23,21 +23,22 @@ export default function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
             <p className="text-lg text-slate leading-relaxed" data-testid="about-paragraph-1">
-              Hello! I'm Alex, a passionate full-stack developer with 5+ years of experience 
-              creating digital solutions that make a difference. My journey in web development 
-              started in 2018, and since then, I've had the privilege of working with 
-              <span className="text-secondary"> innovative startups</span> and 
-              <span className="text-secondary"> established companies</span>.
+              Hello! I'm Chandan, a result-driven computer science graduate from 
+              <span className="text-secondary">Sandip University</span> with a B.Tech in Computer Science and Engineering (GPA: 8.38/10.0). 
+              I have 6+ months of hands-on experience as a full stack developer at 
+              <span className="text-secondary">Mithila Stack</span>.
             </p>
             <p className="text-lg text-slate leading-relaxed" data-testid="about-paragraph-2">
-              I specialize in building modern, scalable applications using cutting-edge technologies. 
-              My focus is on creating <span className="text-secondary">user-centric experiences</span> 
-              that are both functional and beautiful. I believe in writing clean, maintainable code 
-              and staying up-to-date with the latest industry trends.
+              I specialize in developing and maintaining <span className="text-secondary">scalable full-stack web applications</span> 
+              using React, Node.js, and TypeScript. I have experience implementing CI/CD pipelines, 
+              working with <span className="text-secondary">Docker and Azure Pipelines</span>, and 
+              building secure REST APIs with MongoDB and PostgreSQL.
             </p>
             <p className="text-lg text-slate leading-relaxed" data-testid="about-paragraph-3">
-              When I'm not coding, you can find me exploring new technologies, contributing to 
-              open-source projects, or sharing knowledge through technical writing and mentoring.
+              I collaborate cross-functionally with Product, Design, and QA teams in 
+              <span className="text-secondary">Agile environments</span> using tools like Jira, 
+              Azure DevOps, and GitHub. I'm passionate about AI/ML technologies including 
+              TensorFlow, PyTorch, and working with LLMs.
             </p>
             
             <div className="mt-8">
@@ -66,8 +67,8 @@ export default function AboutSection() {
             </div>
             <div className="absolute -bottom-6 -right-6 glassmorphism rounded-xl p-4">
               <div className="text-center" data-testid="experience-badge">
-                <div className="text-2xl font-bold text-secondary">5+</div>
-                <div className="text-sm text-slate">Years Experience</div>
+                <div className="text-2xl font-bold text-secondary">6+</div>
+                <div className="text-sm text-slate">Months Experience</div>
               </div>
             </div>
           </div>
