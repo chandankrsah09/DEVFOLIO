@@ -64,7 +64,9 @@ export default function AboutSection() {
                 className="rounded-xl w-full h-auto glow-effect object-cover aspect-square"
                 style={{
                   filter: 'contrast(1.1) brightness(1.05)',
-                  objectPosition: 'center top'
+                  objectPosition: 'center 20%',
+                  transform: 'scale(1.3)',
+                  transformOrigin: 'center 30%'
                 }}
                 data-testid="about-image"
               />
