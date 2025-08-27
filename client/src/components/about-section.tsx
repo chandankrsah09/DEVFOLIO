@@ -59,9 +59,13 @@ export default function AboutSection() {
           <div className="relative">
             <div className="glassmorphism rounded-2xl p-6">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600" 
-                alt="Professional developer portrait" 
-                className="rounded-xl w-full h-auto glow-effect"
+                src="/attached_assets/WhatsApp Image 2025-08-27 at 18.24.08_d48190e5_1756299277509.jpg" 
+                alt="Chandan Kumar Sah - Full Stack Developer" 
+                className="rounded-xl w-full h-auto glow-effect object-cover aspect-square"
+                style={{
+                  filter: 'contrast(1.1) brightness(1.05)',
+                  objectPosition: 'center top'
+                }}
                 data-testid="about-image"
               />
             </div>
