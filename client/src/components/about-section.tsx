@@ -59,7 +59,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="glassmorphism rounded-2xl p-6">
               <img 
-                src="/attached_assets/WhatsApp Image 2025-08-27 at 18.24.08_d48190e5_1756299277509.jpg" 
+                src="/chandan-photo.jpg" 
                 alt="Chandan Kumar Sah - Full Stack Developer" 
                 className="rounded-xl w-full h-auto glow-effect object-cover aspect-square"
                 style={{
